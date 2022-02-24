@@ -13,11 +13,11 @@
         </div>
         Оценить новость
         <button @click="Dec" class="rate_button">
-          <img src="components/img/dislike.png" class="rate_image" />
+          <img src="/img/dislike.png" class="rate_image" />
         </button>
         {{ ThisId.count }}
         <button @click="Inc" class="rate_button">
-          <img src="components/img/like.png" class="rate_image" />
+          <img src="/img/like.png" class="rate_image" />
         </button>
       </div>
       <div class="text-center p-3">
@@ -46,15 +46,14 @@
               <div>{{ comment.authorName }}</div>
             </div>
             <div class="col-8 comment-text text-center align-items-center">
-              <div class="font-weight-bold">Текст комментария</div>
               <div class="p-1 m-4">{{ comment.commentText }}</div>
             </div>
           </div>
         </div>
       </div>
-      <div class="comment_form p-2 text-center mb-2 text-light">
+      <div class="comment_form p-2 text-center mb-2 card bg-light align-items-center">
         <my-input label="Желаете оставить комментарий?" v-model="commentText" />
-        <button class="btn btn-secondary mt-4" @click="CommentSend">
+        <button class="btn btn-secondary mt-4 col-6" @click="CommentSend">
           Оставить комментарий
         </button>
       </div>
@@ -166,19 +165,19 @@ export default {
 </script>
 <style>
 .comments {
-  border: 2px solid #3f5062;
-  border-radius: 5px;
+  border: 1px solid #3f5062;
+  border-radius: 1rem;
 }
 .user_icon {
   max-height: 50px;
 }
-.comment_form {
+/* .comment_form {
   background: linear-gradient(#747677, #3f5062);
   border-radius: 10px;
-}
+} */
 .comment_author {
-  border: 2px solid #3f5062;
-  border-radius: 5px;
+  border: 1px solid #3f5062;
+  border-radius: 1rem;
 }
 </style>
 

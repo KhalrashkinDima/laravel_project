@@ -20,7 +20,7 @@
 
 <style>
 .main_footer {
-  background: linear-gradient(#747677, #3F5062);
+  background: #000000;
     left: 0;
     bottom: 0;
     width: 100%;

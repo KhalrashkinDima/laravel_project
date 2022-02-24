@@ -48721,7 +48721,7 @@ var _hoisted_15 = {
 
 var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: _img_profile_icon_png__WEBPACK_IMPORTED_MODULE_2__["default"],
-  "class": "d-block profile_icon img-fluid"
+  "class": "d-block profile_icon img-fluid opacity-75"
 }, null, -1
 /* HOISTED */
 );
@@ -48763,7 +48763,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     to: "/",
-    "class": "fw-bold text-light h5 upp_nav nav-item me-lg-4 me-xl-5"
+    "class": "h5 nav-link me-lg-4 me-xl-5"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_11];
@@ -48773,7 +48773,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     to: "/Best",
-    "class": "fw-bold text-light h5 upp_nav nav-item me-lg-4 me-xl-5"
+    "class": "h5 nav-link me-lg-4 me-xl-5"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_12];
@@ -48783,7 +48783,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     to: "/AddNew",
-    "class": "fw-bold text-light h5 upp_nav nav-item me-lg-4 me-xl-5"
+    "class": "h5 nav-link me-lg-4 me-xl-5"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_13];
@@ -48793,7 +48793,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     to: "/PostsByCategories",
-    "class": "fw-bold text-light h5 upp_nav nav-item me-lg-4 me-xl-5"
+    "class": "h5 nav-link me-lg-4 me-xl-5"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_14];
@@ -48804,7 +48804,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   })])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [$options.AuthTrue ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
     key: 0,
     src: _img_profile_icon_png__WEBPACK_IMPORTED_MODULE_2__["default"],
-    "class": "d-block profile_icon img-fluid",
+    "class": "d-block profile_icon img-fluid opacity-75",
     onClick: _cache[0] || (_cache[0] = function () {
       return $options.ProfileInform && $options.ProfileInform.apply($options, arguments);
     })
@@ -48819,13 +48819,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     /* STABLE */
 
   }))]), $options.AuthTrue ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "fw-bold text-light h5 upp_nav",
+    "class": "h5 right_nav",
     onClick: _cache[1] || (_cache[1] = function () {
       return $options.Loginout && $options.Loginout.apply($options, arguments);
     })
   }, "Выйти")])) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     to: "/Verification",
-    "class": "fw-bold text-light h5 upp_nav"
+    "class": "h5 right_nav"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_20];
@@ -48835,7 +48835,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     to: "/RegistrationForm",
-    "class": "fw-bold text-light h5 upp_nav"
+    "class": "h5 right_nav"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_22];
@@ -49177,7 +49177,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "container-fluid align-items-center pb-2 border-bottom border-danger"
+  "class": "container-fluid align-items-center pb-2 border rounded pt-2"
 };
 var _hoisted_2 = {
   "class": "pt-2"
@@ -55000,7 +55000,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.main_window {\r\n\tlist-style: none;\r\n\ttext-decoration: none;\r\n\tfont-family: sans-serif;\r\n\tmargin: 0 auto;\r\n  max-width: 1420px;\r\n  padding-bottom: 50px;\n}\na {\r\n\ttext-decoration: none;\r\n\tcolor: black;\n}\nhtml{\r\n  height: 100%;\n}\nbody {\r\n  position: relative;\r\n  min-height: 100%;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.main_window {\r\n  list-style: none;\r\n  text-decoration: none;\r\n  margin: 0 auto;\r\n  max-width: 1420px;\r\n  padding-bottom: 50px;\r\n  font-family: var(--bs-body-font-family);\r\n  font-weight: var(--bs-body-font-weight);\r\n  line-height: var(--bs-body-line-height);\n}\na {\r\n  text-decoration: none;\r\n  color: black;\n}\nhtml {\r\n  height: 100%;\n}\nbody {\r\n  position: relative;\r\n  min-height: 100%;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -55024,7 +55024,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.main_footer {\r\n  background: linear-gradient(#747677, #3F5062);\r\n    left: 0;\r\n    bottom: 0;\r\n    width: 100%;\r\n    height: 50px;\r\n    margin: 0 auto;\r\n    position: absolute;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.main_footer {\r\n  background: #000000;\r\n    left: 0;\r\n    bottom: 0;\r\n    width: 100%;\r\n    height: 50px;\r\n    margin: 0 auto;\r\n    position: absolute;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -55048,7 +55048,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.logo {\r\n  max-width: 220px;\r\n  height: auto;\n}\n.upp_nav {\r\n  text-decoration: none;\r\n  cursor:pointer;\n}\nheader {\r\n  max-width: 1420px;\n}\n.upp {\r\n  width: 100% !important;\r\n  box-sizing: border-box;\r\n  margin: 0 auto;\n}\n.header_top {\r\n  background: linear-gradient(#747677, #3f5062);\n}\n.profile_icon {\r\n  width: 80px;\r\n  height: auto;\n}\n.profile_icon:hover {\r\n  transform: scale(1.5);\r\n  transition: all 0.2s linear;\n}\na.router-link-active {\r\n  color: #03d6f7 !important;\n}\n.sidebar_button {\r\n  position: absolute;\r\n  top: 20%;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.logo {\r\n  max-width: 220px;\r\n  height: auto;\n}\n.upp_nav {\r\n  text-decoration: none;\r\n  cursor: pointer;\n}\nheader {\r\n  max-width: 1420px;\n}\n.upp {\r\n  width: 100% !important;\r\n  box-sizing: border-box;\r\n  margin: 0 auto;\n}\n.header_top {\r\n  background: #000000;\n}\n.profile_icon {\r\n  width: 80px;\r\n  height: auto;\n}\n.profile_icon:hover {\r\n  transform: scale(1.3);\r\n  transition: all 0.2s linear;\n}\na.router-link-active {\r\n  color: #ffffff !important;\n}\n.right_nav {\r\n  text-decoration: none;\r\n  cursor: pointer;\r\n  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,\r\n    border-color 0.15s ease-in-out;\r\n    color: rgb(255, 255, 255, 0.55);\n}\n.sidebar_button {\r\n  position: absolute;\r\n  top: 20%;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -55268,7 +55268,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/logo.png?7ce694167d090905dd9688a4a8af97e9");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/logo.png?158f8f59ed0896ced527f8ae57e5d581");
 
 /***/ }),
 

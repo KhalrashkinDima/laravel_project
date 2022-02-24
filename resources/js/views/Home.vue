@@ -6,7 +6,9 @@
           container-fluid
           align-items-center
           pb-2
-          border-bottom border-danger
+          border
+          rounded
+          pt-2
         "
       >
         <div class="pt-2">

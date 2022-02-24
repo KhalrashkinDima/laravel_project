@@ -87,7 +87,7 @@ export default {
   height: 200px;
 }
 .add_post {
-  background: linear-gradient(to bottom, #3f5062, #747677);
+   background: rgb(0, 0, 0, 0.75);
   border-radius: 50px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
     0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),

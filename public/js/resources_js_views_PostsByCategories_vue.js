@@ -164,7 +164,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return $options.postsByCategory('Политика');
     }),
-    "class": "btn btn-secondary col-10 col-md-6 col-lg-2"
+    "class": "btn btn-secondary col-10 col-md-6 col-lg-3 m-1 text-center"
   }, " Политика "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     onClick: _cache[1] || (_cache[1] = function ($event) {
       return $options.postsByCategory('Спорт');

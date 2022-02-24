@@ -6,7 +6,7 @@
         <div class="row justify-content-around category_border">
           <button
             @click="postsByCategory('Политика')"
-            class="btn btn-secondary col-10 col-md-6 col-lg-2 "
+            class="btn btn-secondary col-10 col-md-6 col-lg-3 m-1 text-center"
           >
             Политика
           </button>

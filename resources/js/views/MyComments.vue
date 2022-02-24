@@ -86,12 +86,12 @@ export default {
   height: auto;
 }
 .my_form {
-  border: 2px solid #3f5062;
-  border-radius: 5px;
+  border: 1px solid #3f5062;
+  border-radius: 1rem;
 }
 .my_author {
-  border: 2px solid #3f5062;
-  border-radius: 5px;
+  border: 1px solid #3f5062;
+  border-radius: 1rem;
 }
 .comments_form {
   width: 100%;

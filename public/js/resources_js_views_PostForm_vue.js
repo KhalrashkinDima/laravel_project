@@ -303,7 +303,7 @@ var _hoisted_4 = ["src"];
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Оценить новость ");
 
 var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "components/img/dislike.png",
+  src: "/img/dislike.png",
   "class": "rate_image"
 }, null, -1
 /* HOISTED */
@@ -312,7 +312,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 var _hoisted_7 = [_hoisted_6];
 
 var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "components/img/like.png",
+  src: "/img/like.png",
   "class": "rate_image"
 }, null, -1
 /* HOISTED */
@@ -350,18 +350,11 @@ var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 var _hoisted_18 = {
   "class": "col-8 comment-text text-center align-items-center"
 };
-
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "font-weight-bold"
-}, "Текст комментария", -1
-/* HOISTED */
-);
-
-var _hoisted_20 = {
+var _hoisted_19 = {
   "class": "p-1 m-4"
 };
-var _hoisted_21 = {
-  "class": "comment_form p-2 text-center mb-2 text-light"
+var _hoisted_20 = {
+  "class": "comment_form p-2 text-center mb-2 card bg-light align-items-center"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_modal_redact = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("modal-redact");
@@ -407,12 +400,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   , ["onClose", "postRedact"])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _hoisted_12, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.CommentsList, function (comment) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(comment.authorName), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [_hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(comment.commentText), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(comment.commentText), 1
     /* TEXT */
     )])])])]);
   }), 256
   /* UNKEYED_FRAGMENT */
-  )), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_my_input, {
+  )), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_my_input, {
     label: "Желаете оставить комментарий?",
     modelValue: $data.commentText,
     "onUpdate:modelValue": _cache[3] || (_cache[3] = function ($event) {
@@ -421,7 +414,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, null, 8
   /* PROPS */
   , ["modelValue"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-    "class": "btn btn-secondary mt-4",
+    "class": "btn btn-secondary mt-4 col-6",
     onClick: _cache[4] || (_cache[4] = function () {
       return $options.CommentSend && $options.CommentSend.apply($options, arguments);
     })
@@ -469,7 +462,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.comments {\r\n  border: 2px solid #3f5062;\r\n  border-radius: 5px;\n}\n.user_icon {\r\n  max-height: 50px;\n}\n.comment_form {\r\n  background: linear-gradient(#747677, #3f5062);\r\n  border-radius: 10px;\n}\n.comment_author {\r\n  border: 2px solid #3f5062;\r\n  border-radius: 5px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.comments {\r\n  border: 1px solid #3f5062;\r\n  border-radius: 1rem;\n}\n.user_icon {\r\n  max-height: 50px;\n}\r\n/* .comment_form {\r\n  background: linear-gradient(#747677, #3f5062);\r\n  border-radius: 10px;\r\n} */\n.comment_author {\r\n  border: 1px solid #3f5062;\r\n  border-radius: 1rem;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

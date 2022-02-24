@@ -180,7 +180,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.inform {\r\n  width: 100%;\r\n  height: 200px;\n}\n.add_post {\r\n  background: linear-gradient(to bottom, #3f5062, #747677);\r\n  border-radius: 50px;\r\n  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),\r\n    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),\r\n    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);\r\n  border: 2px solid white;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.inform {\r\n  width: 100%;\r\n  height: 200px;\n}\n.add_post {\r\n   background: rgb(0, 0, 0, 0.75);\r\n  border-radius: 50px;\r\n  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),\r\n    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),\r\n    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);\r\n  border: 2px solid white;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

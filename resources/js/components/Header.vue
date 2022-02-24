@@ -22,24 +22,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <div class="navbar-nav text-center align-items-center">
-                <router-link
-                  to="/"
-                  class="fw-bold text-light h5 upp_nav nav-item me-lg-4 me-xl-5"
+                <router-link to="/" class="h5 nav-link me-lg-4 me-xl-5"
                   >Главная</router-link
                 >
-                <router-link
-                  to="/Best"
-                  class="fw-bold text-light h5 upp_nav nav-item me-lg-4 me-xl-5"
+                <router-link to="/Best" class="h5 nav-link me-lg-4 me-xl-5"
                   >Лучшее</router-link
                 >
-                <router-link
-                  to="/AddNew"
-                  class="fw-bold text-light h5 upp_nav nav-item me-lg-4 me-xl-5"
+                <router-link to="/AddNew" class="h5 nav-link me-lg-4 me-xl-5"
                   >Добавить новость</router-link
                 >
                 <router-link
                   to="/PostsByCategories"
-                  class="fw-bold text-light h5 upp_nav nav-item me-lg-4 me-xl-5"
+                  class="h5 nav-link me-lg-4 me-xl-5"
                   >Категории</router-link
                 >
               </div>
@@ -50,32 +44,30 @@
       <div class="col-1 align-self-center">
         <img
           src="./img/profile_icon.png"
-          class="d-block profile_icon img-fluid"
+          class="d-block profile_icon img-fluid opacity-75"
           @click="ProfileInform"
           v-if="AuthTrue"
         />
         <router-link to="/RegistrationForm" v-else>
           <img
             src="./img/profile_icon.png"
-            class="d-block profile_icon img-fluid"
+            class="d-block profile_icon img-fluid opacity-75"
         /></router-link>
       </div>
       <div
         class="col-md-2 col-lg-2 align-self-center text-center"
         v-if="AuthTrue"
       >
-        <div class="fw-bold text-light h5 upp_nav" @click="Loginout">Выйти</div>
+        <div class="h5 right_nav" @click="Loginout">Выйти</div>
       </div>
       <div class="col-md-2 col-lg-2 align-self-center" v-else>
         <div class="pt-2 background-down background-primary text-center">
-          <router-link to="/Verification" class="fw-bold text-light h5 upp_nav"
+          <router-link to="/Verification" class="h5 right_nav"
             >Войти</router-link
           >
         </div>
         <div class="text-center">
-          <router-link
-            to="/RegistrationForm"
-            class="fw-bold text-light h5 upp_nav"
+          <router-link to="/RegistrationForm" class="h5 right_nav"
             >Регистрация</router-link
           >
         </div>
@@ -121,7 +113,7 @@ export default {
 }
 .upp_nav {
   text-decoration: none;
-  cursor:pointer;
+  cursor: pointer;
 }
 header {
   max-width: 1420px;
@@ -132,18 +124,25 @@ header {
   margin: 0 auto;
 }
 .header_top {
-  background: linear-gradient(#747677, #3f5062);
+  background: #000000;
 }
 .profile_icon {
   width: 80px;
   height: auto;
 }
 .profile_icon:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
   transition: all 0.2s linear;
 }
 a.router-link-active {
-  color: #03d6f7 !important;
+  color: #ffffff !important;
+}
+.right_nav {
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+    color: rgb(255, 255, 255, 0.55);
 }
 .sidebar_button {
   position: absolute;

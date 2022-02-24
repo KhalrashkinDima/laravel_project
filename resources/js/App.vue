@@ -3,7 +3,7 @@
   <main class="d-flex main_window">
     <LeftAdv />
     <div class="col-12 col-md-8">
-    <router-view />
+      <router-view />
     </div>
     <RightAdv />
   </main>
@@ -29,23 +29,24 @@ export default {
 
 <style>
 .main_window {
-	list-style: none;
-	text-decoration: none;
-	font-family: sans-serif;
-	margin: 0 auto;
+  list-style: none;
+  text-decoration: none;
+  margin: 0 auto;
   max-width: 1420px;
   padding-bottom: 50px;
- 
+  font-family: var(--bs-body-font-family);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
 }
 
 a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
-html{
+html {
   height: 100%;
-  }
+}
 
 body {
   position: relative;
